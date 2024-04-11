@@ -1,3 +1,5 @@
+## Applying the Coin-change algorithm to solve a Darts problem :dart:
+
 The holy grail in the game of Darts is to throw a 9 dart leg (watch this video) [https://www.youtube.com/watch?v=AcL6bRdbO-4] - reaching the score of 501 with the last dart being a double or bullseye, in only 9 darts. The most common way of achieving this is by throwing 60 (treble 20), 60, 60, 60, 60, 60, 60, 57 (treble 19), 24 (double 12). However, whilst watching the Darts World Championships one year I heard the commentators mention there are 3944 different ways of throwing a 9 dart leg. After hearing this, I started to think about how this number could be calculated. I initally thought it would be quite simple, but the more I thought about it the harder I realised it was going to be. After a lot of thinking, my initital solution was to implement a depth-first search using search trees.
 
 
